@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 1200px) {
+	.hidden {
+		display: none;
+	}
+
+	.hidden1 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.margin-md {
+		margin-left: 0%;
+	}
+
+	.col-header-looking {
+		margin-top: 0%;
+	}
+
+	.header-button {
+		width: 18%;
+	}
+
+	.col-header-button {
+		margin-top: 3%;
+	}
+
+	.header-loup {
+   		margin-bottom: 2%;
+	}
+
+	.hidden {
+		display: none;
+	}
+
+	.hidden1 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.text-block-1 {
+		font-size: 3em;
+	}
+
+	.text2-block-1 {
+		font-size: 1em;
+	}
+
+	.hidden {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	.text-block-1 {
+		font-size: 3em;
+	}
+
+	.text2-block-1 {
+		font-size: 1em;
+	}
+
+	.footer-block-copyright {
+		margin-top: 4%;
+	}
+
+	.footer-block-communication button {
+		margin-top: 4%;
+	}
+
+	.col-header-2 {
+		display: none;
+	}
+		
+	/*----------------Burger*/
+
+	.button-burger {
+		margin-top: 4%;
+	}
+
+	.button-burger img {
+		width: 60px;
+		cursor: pointer;
+	}
+
+	.wrapper-menu {
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		position: fixed;
+		background-image: url('../image/header img bg.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: 100;
+	}
+
+	.hidden {
+		display: none;
+	}
+
+	.hidden1 {
+		display: block;
+	}
+
+	.head {
+		margin-top: 3%;
+	}
+
+	.flex-block-header-menu {
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		line-height: 500%;
+	}
+
+	.flex-block-header-menu a {
+		text-decoration: none;
+	}
+
+	.col-header-menu-span {
+		color: #fff;
+		letter-spacing: 1.9px;
+		text-transform: uppercase;
+		font-size: 1.5em;
+		transition: 0.5s all;
+	}
+
+	.col-header-menu-span:active {
+		color: #4acaff;
+		transition: 0.5s all;
+	}
+
+	.col-header-menu-span:hover {
+		color: #4acaff;
+		transition: 0.5s all;
+	}
+
+	#exit {
+		cursor: pointer;
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin-right: 6%;
+		margin-top: 4%;
+	}
+
+	/*---------------------*/
+
+	.header-button {
+		width: 100%;
+	}
+
+	.header-loup {
+   		margin-bottom: 1%;
+	}
+
+	.col-header-button {
+    	margin-top: 7%;
+	}
+
+	label {
+		margin-top: 7%;
+	}
+
+	.wrapper-input-block-2 {
+		width: 100%;
+	}
+
+	.text-block-2 {
+		font-size: 1.3em;
+	}
+}
+
+
